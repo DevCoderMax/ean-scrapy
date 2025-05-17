@@ -1,0 +1,8 @@
+{
+  "americanas": {
+    "titulo": { "type": "xpath", "value": "//h1[contains(@class, 'product-title') or contains(@class, 'ProductInfoCenter_title')]" },
+    "preco": { "type": "xpath", "value": "//div[contains(@class, 'price__SalesPrice') or contains(@class, 'src__BestPrice')]//span | //span[contains(@class, 'src__BestPrice')]" },
+    "imagem": { "type": "xpath", "value": "//img[contains(@class, 'src__Image') or contains(@class, 'main-image')]/@src" },
+    "descricao": { "type": "xpath", "value": "//div[contains(@class, 'product-description') or contains(@class, 'productDescription')] | //div[contains(@class, 'product-description')]//span | //section[contains(@class, 'productDescription')]" }
+  }
+}
